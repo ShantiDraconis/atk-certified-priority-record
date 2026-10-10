@@ -1,0 +1,37 @@
+name: ATK-COPY provenance archive
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: atk-copy-main
+  cancel-in-progress: false
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout destination
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - name: Copy and verify originals
+        env:
+          GH_READ_TOKEN: ${{ secrets.ATK_SOURCE_READ_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/atk_copy.py
+      - name: Commit and push provenance snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snapshots provenance
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+          else
+            git commit -m 'ATK-COPY: preserve verified Lean source snapshots'
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
