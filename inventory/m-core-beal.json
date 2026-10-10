@@ -1,0 +1,337 @@
+{
+  "schema": "atk.source-inventory.v1",
+  "inventory_date_utc": "2026-10-10",
+  "source_repository": "ShantiDraconis/m-core-beal",
+  "tree_sha": "d79343f24169403765ced3d64a28e32647d9389e",
+  "tree_truncated": false,
+  "original_commit_dates": "NOT_YET_VERIFIED",
+  "source_files_copied": false,
+  "file_count": 54,
+  "lean_count": 29,
+  "files": [
+    {
+      "path": ".github/workflows/certificate.yml",
+      "git_blob_sha": "8c8365ac4b52aae9ef64b81463904cd5663d4ebb",
+      "bytes": 4488,
+      "kind": "other"
+    },
+    {
+      "path": ".github/workflows/certify-k10.yml",
+      "git_blob_sha": "206775614df6b3ba41874301cd7297e8b74c5d4c",
+      "bytes": 2486,
+      "kind": "other"
+    },
+    {
+      "path": ".github/workflows/direct-endpoint-rule.yml",
+      "git_blob_sha": "b53496f220fb7a6ff7ef033d86fee46b487e109c",
+      "bytes": 926,
+      "kind": "other"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "git_blob_sha": "08d678a5b564b72cf80dc57c4a1fe5630499e174",
+      "bytes": 1118,
+      "kind": "other"
+    },
+    {
+      "path": "ATK_RULES.md",
+      "git_blob_sha": "d63280a7cb5bae6a15a6e45e74497c6807b75809",
+      "bytes": 3441,
+      "kind": "other"
+    },
+    {
+      "path": "Audit/AlgebraAudit/K3_predictor.json",
+      "git_blob_sha": "ec33184b3d2402ac888e4f6092f9d2dd523c4914",
+      "bytes": 105,
+      "kind": "other"
+    },
+    {
+      "path": "CERTIFICATES/BEAL_GCD_LOWER_BOUND_GREEN_d6fe130c.md",
+      "git_blob_sha": "64ae9cdf40f0b01d81b070bc672a1fc164b56d55",
+      "bytes": 1200,
+      "kind": "other"
+    },
+    {
+      "path": "CERTIFICATES/K6_GREEN_434d6b7.md",
+      "git_blob_sha": "a8faa9a0e545a57f561647d5533938d1185c36d7",
+      "bytes": 657,
+      "kind": "other"
+    },
+    {
+      "path": "CERTIFICATES/K7_GREEN_2263d6a.md",
+      "git_blob_sha": "92df2b41411297de1333d3e9bbfb59282395c368",
+      "bytes": 346,
+      "kind": "other"
+    },
+    {
+      "path": "CERTIFICATES/K8_GREEN_3d7ec00.md",
+      "git_blob_sha": "3f09564a8b26ae65e79a2247616ed9b5eaf8fc8a",
+      "bytes": 420,
+      "kind": "other"
+    },
+    {
+      "path": "CERTIFICATES/K9_GREEN_e3b8598.md",
+      "git_blob_sha": "7d490699be0ab271ed8557ba24bba9790be925c4",
+      "bytes": 2800,
+      "kind": "other"
+    },
+    {
+      "path": "CERTIFICATE_MANIFEST.json",
+      "git_blob_sha": "235700753b8d145f57da8adcedf924c522a6fe66",
+      "bytes": 117,
+      "kind": "other"
+    },
+    {
+      "path": "CHAIN.yaml",
+      "git_blob_sha": "8425733a9a5f9021769705c0a55a2f97102f0689",
+      "bytes": 148,
+      "kind": "other"
+    },
+    {
+      "path": "COMMERCIAL_RELEASE.md",
+      "git_blob_sha": "bec5493ed7b73bb89be5ee64df7a2245d1750891",
+      "bytes": 1348,
+      "kind": "other"
+    },
+    {
+      "path": "FRONTIER.yaml",
+      "git_blob_sha": "cf306bfdbc19e61dbc1f16cdea49e6c8a835851e",
+      "bytes": 553,
+      "kind": "other"
+    },
+    {
+      "path": "GATE_LEDGER.json",
+      "git_blob_sha": "c7857bade29695146c001c14d41d5861de931547",
+      "bytes": 1532,
+      "kind": "other"
+    },
+    {
+      "path": "POLICY/DIRECT_ENDPOINT_RULE.md",
+      "git_blob_sha": "4c6ceec5c830128272bc9af7cbc399d219a4c1d9",
+      "bytes": 2707,
+      "kind": "other"
+    },
+    {
+      "path": "SharedSignature/NS_IsolatedSignature.md",
+      "git_blob_sha": "23d89e70c4943fd97e1df4622cd4ca5b888755d6",
+      "bytes": 869,
+      "kind": "other"
+    },
+    {
+      "path": "TEXTO_UNICO_BACKWARD_DENSE.md",
+      "git_blob_sha": "3fb561fed84a78d6e7a0845e122b1c9d7883ba43",
+      "bytes": 3049,
+      "kind": "other"
+    },
+    {
+      "path": "audit/ATK_BEAL_MINIMAL_PRODUCER.lean",
+      "git_blob_sha": "2edb43b9e875209c0c38328c35a0a6096b14c8a6",
+      "bytes": 917,
+      "kind": "lean"
+    },
+    {
+      "path": "audit/ATK_TERMINAL_PRODUCER_INDEX.md",
+      "git_blob_sha": "4263430dd2a4a6ccc05d6e3506e7adf0709c80b3",
+      "bytes": 8508,
+      "kind": "other"
+    },
+    {
+      "path": "formal/DirectEndpointRule.lean",
+      "git_blob_sha": "cdd2f392e9f5bca823291b005ee831573cb6e4c2",
+      "bytes": 1395,
+      "kind": "lean"
+    },
+    {
+      "path": "lake-manifest.json",
+      "git_blob_sha": "ef86e4de986a235ee63633eab7211979d8182bf2",
+      "bytes": 65,
+      "kind": "other"
+    },
+    {
+      "path": "lakefile.toml",
+      "git_blob_sha": "eb7669b8e9eb059d58ffaaa109b34516616cf319",
+      "bytes": 110,
+      "kind": "other"
+    },
+    {
+      "path": "lean-toolchain",
+      "git_blob_sha": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25,
+      "kind": "other"
+    },
+    {
+      "path": "lean/MCore.lean",
+      "git_blob_sha": "f20b8b413787e1492cfaba295b51149f6b2f1961",
+      "bytes": 464,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/AttackDAG/K3AlgebraAttacks.lean",
+      "git_blob_sha": "ea52f7e6b4cf4e9475158ea1324b31f593c7d697",
+      "bytes": 489,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Audit.lean",
+      "git_blob_sha": "e16259aba353c23bb973257950bff881d85ef53e",
+      "bytes": 104,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+      "git_blob_sha": "f1b3e723ae66c648f058cced7e087c79f488992e",
+      "bytes": 317,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/BackwardAudit/WithoutOracle.lean",
+      "git_blob_sha": "62a6b54be066aab89821559d809209a3e1cd1f9a",
+      "bytes": 554,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/BealDirectProducer.lean",
+      "git_blob_sha": "809bb26989406d679a842f32332d672c1379f8a7",
+      "bytes": 859,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/BealSpecification.lean",
+      "git_blob_sha": "1bd06babd269e9ccfa88c5eefbc0041bbfc88673",
+      "bytes": 1058,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Boundary.lean",
+      "git_blob_sha": "81c103d10e50cde61d167d54155dc3acad5c3790",
+      "bytes": 325,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/DiscreteBoundary.lean",
+      "git_blob_sha": "7f34a3a2fd466b7d467fa3ea46e15df54b7d5281",
+      "bytes": 582,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Frontier/K3Gaps.lean",
+      "git_blob_sha": "3d051252b911033228795ff73cff562588d1239c",
+      "bytes": 377,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/GCDLowerBoundProducer.lean",
+      "git_blob_sha": "5d7977d1a51f80c964802de888aaaaa33c075165",
+      "bytes": 1931,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/GCDSignature.lean",
+      "git_blob_sha": "10db41cbc3b900993c0076f11721cd5e4d4bb5e2",
+      "bytes": 548,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K0.lean",
+      "git_blob_sha": "372d87d51023b49d9c8b3fd4b45fb6295643f7ba",
+      "bytes": 275,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K1.lean",
+      "git_blob_sha": "c429991208c2a93384e3d48cf356ba7dc31c605b",
+      "bytes": 567,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K10.lean",
+      "git_blob_sha": "d034ff3511eadead710e7520d79edf985c412dd6",
+      "bytes": 2489,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K2.lean",
+      "git_blob_sha": "139a1c1d0727da13c72ad6f295b7cacd5a59b01c",
+      "bytes": 690,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K3.lean",
+      "git_blob_sha": "74bb65fe99a4abe3d1fb816e13a5f35231efd639",
+      "bytes": 780,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K4.lean",
+      "git_blob_sha": "659695de1a7fe4fb16be61bb763d4df58261d453",
+      "bytes": 330,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K5.lean",
+      "git_blob_sha": "7ba8d242e6af4b0c7422af6c72173c67b065b317",
+      "bytes": 446,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K6.lean",
+      "git_blob_sha": "512391b96e7aee294a76e139bb130d5cce693cd7",
+      "bytes": 482,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K7.lean",
+      "git_blob_sha": "fb318f3b934f0f161f6b1d8b63862ff5debbe3f4",
+      "bytes": 887,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K8.lean",
+      "git_blob_sha": "db0593e99aa26cc0f2919f3fc8b3d204ba41ab96",
+      "bytes": 1031,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K9.lean",
+      "git_blob_sha": "3cef64c440649973eb1aea42f1f783ea6d7efad9",
+      "bytes": 1633,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K9/Core/Arith.lean",
+      "git_blob_sha": "0328af6b6229b7cbe4b11c18cc52912d32348748",
+      "bytes": 1104,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Material/Closure.lean",
+      "git_blob_sha": "3b2b908cef1d469ac793648e427af64a62e573b7",
+      "bytes": 495,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Material/GCDAdapter.lean",
+      "git_blob_sha": "077e05a3edcdcd9c20413e0a22811692a0215545",
+      "bytes": 307,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Signature.lean",
+      "git_blob_sha": "f13e86044e49352232a851055c79d49a0e5606e9",
+      "bytes": 322,
+      "kind": "lean"
+    },
+    {
+      "path": "m_core/algebra_audit.py",
+      "git_blob_sha": "529bcf72986801ae374b7e4d5f96832f8d4a3e2a",
+      "bytes": 904,
+      "kind": "other"
+    },
+    {
+      "path": "scripts/red_fingerprint.py",
+      "git_blob_sha": "4da2f93c14d65aa9354d82154cc2877f4034a927",
+      "bytes": 4819,
+      "kind": "other"
+    }
+  ]
+}
