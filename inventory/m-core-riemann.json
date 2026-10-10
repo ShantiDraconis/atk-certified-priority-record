@@ -1,0 +1,241 @@
+{
+  "schema": "atk.source-inventory.v1",
+  "inventory_date_utc": "2026-10-10",
+  "source_repository": "ShantiDraconis/m-core-riemann",
+  "tree_sha": "a30d95f7fbbc6c04daa7812f37fca90dbd825eda",
+  "tree_truncated": false,
+  "original_commit_dates": "NOT_YET_VERIFIED",
+  "source_files_copied": false,
+  "file_count": 38,
+  "lean_count": 20,
+  "files": [
+    {
+      "path": ".github/workflows/certificate.yml",
+      "git_blob_sha": "3423d96b4f664b186f9a39313f9b33e8161ee25a",
+      "bytes": 2905,
+      "kind": "other"
+    },
+    {
+      "path": ".github/workflows/rh-terminal-kernel-pr.yml",
+      "git_blob_sha": "c0727eafff59dcbefd74132f6ad8c84ec6b48b58",
+      "bytes": 1313,
+      "kind": "other"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "git_blob_sha": "ea964607bea34605d3046d3e1801b22c354a0e4c",
+      "bytes": 1295,
+      "kind": "other"
+    },
+    {
+      "path": "ATK_RULES.md",
+      "git_blob_sha": "d63280a7cb5bae6a15a6e45e74497c6807b75809",
+      "bytes": 3441,
+      "kind": "other"
+    },
+    {
+      "path": "Audit/AlgebraAudit/K3_predictor.json",
+      "git_blob_sha": "ec33184b3d2402ac888e4f6092f9d2dd523c4914",
+      "bytes": 105,
+      "kind": "other"
+    },
+    {
+      "path": "CERTIFICATE_MANIFEST.json",
+      "git_blob_sha": "235700753b8d145f57da8adcedf924c522a6fe66",
+      "bytes": 117,
+      "kind": "other"
+    },
+    {
+      "path": "CHAIN.yaml",
+      "git_blob_sha": "ac65d57ca19adaa52661baae4e57d004f926e904",
+      "bytes": 162,
+      "kind": "other"
+    },
+    {
+      "path": "COMMERCIAL_RELEASE.md",
+      "git_blob_sha": "e0bd90e103dfe3492206210a44cb6cf5de61ad02",
+      "bytes": 1344,
+      "kind": "other"
+    },
+    {
+      "path": "FRONTIER.yaml",
+      "git_blob_sha": "76e6e8d22c9d24dc805a87626c77a75708b220d1",
+      "bytes": 117,
+      "kind": "other"
+    },
+    {
+      "path": "GATE_LEDGER.json",
+      "git_blob_sha": "5d71efdbb43fba4a36922756bb093cbbfa617de8",
+      "bytes": 1364,
+      "kind": "other"
+    },
+    {
+      "path": "SharedSignature/NS_IsolatedSignature.md",
+      "git_blob_sha": "bb9d4f13c719b17e67481bd9f3c3147946dc7c7f",
+      "bytes": 1031,
+      "kind": "other"
+    },
+    {
+      "path": "TEXTO_UNICO_BACKWARD_DENSE.md",
+      "git_blob_sha": "3fb561fed84a78d6e7a0845e122b1c9d7883ba43",
+      "bytes": 3049,
+      "kind": "other"
+    },
+    {
+      "path": "audit/ATK_TERMINAL_PRODUCER_INDEX.md",
+      "git_blob_sha": "4263430dd2a4a6ccc05d6e3506e7adf0709c80b3",
+      "bytes": 8508,
+      "kind": "other"
+    },
+    {
+      "path": "audit/CROSS_PROBLEM_BRIDGE_BOUNDARY.md",
+      "git_blob_sha": "15b3ce8f685493ff9855fd8a542ccb1ec6c3b7bd",
+      "bytes": 1638,
+      "kind": "other"
+    },
+    {
+      "path": "audit/EndpointCompression.lean",
+      "git_blob_sha": "1fd864b09e1f65d9fd091eb3156e509db90e9d29",
+      "bytes": 1351,
+      "kind": "lean"
+    },
+    {
+      "path": "audit/FinalEndpoint.lean",
+      "git_blob_sha": "1787510b77314360a0e908f4be2f93da9ef0a714",
+      "bytes": 626,
+      "kind": "lean"
+    },
+    {
+      "path": "audit/repro_RH_CLASSICAL_ENDPOINT_PROOF.lean",
+      "git_blob_sha": "f8eb2f86c156129f25da56c22fa11691f0259967",
+      "bytes": 588,
+      "kind": "lean"
+    },
+    {
+      "path": "lake-manifest.json",
+      "git_blob_sha": "ef86e4de986a235ee63633eab7211979d8182bf2",
+      "bytes": 65,
+      "kind": "other"
+    },
+    {
+      "path": "lakefile.toml",
+      "git_blob_sha": "ebc2ed13373efa76c7117b34311c5603255d52a2",
+      "bytes": 113,
+      "kind": "other"
+    },
+    {
+      "path": "lean-toolchain",
+      "git_blob_sha": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25,
+      "kind": "other"
+    },
+    {
+      "path": "lean/MCore.lean",
+      "git_blob_sha": "7b8f7f47a15e61f24fd7b42a22d34b0445214f4b",
+      "bytes": 281,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/AttackDAG/K3AlgebraAttacks.lean",
+      "git_blob_sha": "f01d40164445dfe4c5ca17e55162bba4530214a5",
+      "bytes": 501,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Audit.lean",
+      "git_blob_sha": "e16259aba353c23bb973257950bff881d85ef53e",
+      "bytes": 104,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/BackwardAudit/CrossProblemBridgeBoundary.lean",
+      "git_blob_sha": "559f790e1b3482f352b05f1fa1c09ec5a90874ae",
+      "bytes": 2240,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
+      "git_blob_sha": "4285e3b7dd79abca13502b37d1c072cbf8a4cfb6",
+      "bytes": 727,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Boundary.lean",
+      "git_blob_sha": "1b8f23c4568bd20cfb0bed9254ded385d59a8a81",
+      "bytes": 488,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Frontier/K3Gaps.lean",
+      "git_blob_sha": "9751adc4871d2883a0997adda210ebe5fde7a130",
+      "bytes": 388,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Frontier/MultistateSN.lean",
+      "git_blob_sha": "646b99613966f5a12f8a325047019f94440dabb4",
+      "bytes": 6234,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K0.lean",
+      "git_blob_sha": "372d87d51023b49d9c8b3fd4b45fb6295643f7ba",
+      "bytes": 275,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K1.lean",
+      "git_blob_sha": "a03a470491c5b9fc144ea681730c39d955a0569d",
+      "bytes": 555,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K2.lean",
+      "git_blob_sha": "6d032f9edc6d7c45fec35f65298d882f45cc2051",
+      "bytes": 686,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K3.lean",
+      "git_blob_sha": "f998ddbba5ea88c8b592d99445ca2bba147c5df9",
+      "bytes": 797,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K4.lean",
+      "git_blob_sha": "659695de1a7fe4fb16be61bb763d4df58261d453",
+      "bytes": 330,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K5.lean",
+      "git_blob_sha": "7ba8d242e6af4b0c7422af6c72173c67b065b317",
+      "bytes": 446,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K6.lean",
+      "git_blob_sha": "512391b96e7aee294a76e139bb130d5cce693cd7",
+      "bytes": 482,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Material/Closure.lean",
+      "git_blob_sha": "197dd3d32059a231188eea65e61f517005f40493",
+      "bytes": 440,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Signature.lean",
+      "git_blob_sha": "d2dda239f0f1f838108d4d85d1c6e887a2ef4f2a",
+      "bytes": 499,
+      "kind": "lean"
+    },
+    {
+      "path": "m_core/algebra_audit.py",
+      "git_blob_sha": "0a62f8662b11677be8757f5baa8ce0c32b8e1ece",
+      "bytes": 1113,
+      "kind": "other"
+    }
+  ]
+}
