@@ -1,0 +1,211 @@
+{
+  "schema": "atk.source-inventory.v1",
+  "inventory_date_utc": "2026-10-10",
+  "source_repository": "ShantiDraconis/m-core-yang-mills",
+  "tree_sha": "b4a5cff1c0335d719b53881dc898352f3c3ffeea",
+  "tree_truncated": false,
+  "original_commit_dates": "NOT_YET_VERIFIED",
+  "source_files_copied": false,
+  "file_count": 33,
+  "lean_count": 17,
+  "files": [
+    {
+      "path": ".github/workflows/certificate.yml",
+      "git_blob_sha": "1e1e8b0c4adb4f0da9ff4e9c3a8bb8b039d85fd5",
+      "bytes": 3519,
+      "kind": "other"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "git_blob_sha": "e6e1076d7de9c3189fbb9a77685f8b97d42914ea",
+      "bytes": 1247,
+      "kind": "other"
+    },
+    {
+      "path": "ATK_RULES.md",
+      "git_blob_sha": "d63280a7cb5bae6a15a6e45e74497c6807b75809",
+      "bytes": 3441,
+      "kind": "other"
+    },
+    {
+      "path": "Audit/AlgebraAudit/K3_predictor.json",
+      "git_blob_sha": "b1cae92aa60e73eeab1631a13436338d8a452f65",
+      "bytes": 169,
+      "kind": "other"
+    },
+    {
+      "path": "CERTIFICATE_MANIFEST.json",
+      "git_blob_sha": "235700753b8d145f57da8adcedf924c522a6fe66",
+      "bytes": 117,
+      "kind": "other"
+    },
+    {
+      "path": "CHAIN.yaml",
+      "git_blob_sha": "b9b4d4851cdb0e0ced1f15c7af3b22d8aebb44e4",
+      "bytes": 204,
+      "kind": "other"
+    },
+    {
+      "path": "COMMERCIAL_RELEASE.md",
+      "git_blob_sha": "d62894ee7ecd5e497380f5a20df6e3122b93d905",
+      "bytes": 1349,
+      "kind": "other"
+    },
+    {
+      "path": "FRONTIER.yaml",
+      "git_blob_sha": "6745fc2809ea27bb3fecd2f1206c6c537fa9f28d",
+      "bytes": 117,
+      "kind": "other"
+    },
+    {
+      "path": "GATE_LEDGER.json",
+      "git_blob_sha": "e13543a2901f34fc78e32908d25281bc3876dc72",
+      "bytes": 1464,
+      "kind": "other"
+    },
+    {
+      "path": "MCore/YM/K0.lean",
+      "git_blob_sha": "05d2a41b2e90b6d0ee7a7283a5a38377139a741f",
+      "bytes": 628,
+      "kind": "lean"
+    },
+    {
+      "path": "SharedSignature/NS_IsolatedSignature.md",
+      "git_blob_sha": "e7036201a442c5a158963057ad6dae8d2e1f36cb",
+      "bytes": 1911,
+      "kind": "other"
+    },
+    {
+      "path": "TEXTO_UNICO_BACKWARD_DENSE.md",
+      "git_blob_sha": "3fb561fed84a78d6e7a0845e122b1c9d7883ba43",
+      "bytes": 3049,
+      "kind": "other"
+    },
+    {
+      "path": "audit/ATK_TERMINAL_PRODUCER_INDEX.md",
+      "git_blob_sha": "4263430dd2a4a6ccc05d6e3506e7adf0709c80b3",
+      "bytes": 8508,
+      "kind": "other"
+    },
+    {
+      "path": "lake-manifest.json",
+      "git_blob_sha": "ef86e4de986a235ee63633eab7211979d8182bf2",
+      "bytes": 65,
+      "kind": "other"
+    },
+    {
+      "path": "lakefile.toml",
+      "git_blob_sha": "3a19470ac81ae89939b0fa0c3547728e97f34cae",
+      "bytes": 117,
+      "kind": "other"
+    },
+    {
+      "path": "lean-toolchain",
+      "git_blob_sha": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+      "bytes": 25,
+      "kind": "other"
+    },
+    {
+      "path": "lean/MCore.lean",
+      "git_blob_sha": "c2a6b9acf917a21910fa27a057d06eef8abd918c",
+      "bytes": 245,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/AttackDAG/K3AlgebraAttacks.lean",
+      "git_blob_sha": "17fc4c2dec3066689e513d1caa6df12fc83e65a2",
+      "bytes": 507,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Audit.lean",
+      "git_blob_sha": "e16259aba353c23bb973257950bff881d85ef53e",
+      "bytes": 104,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
+      "git_blob_sha": "6e6ec9e950226548a19a291316c87af0bc718b82",
+      "bytes": 716,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Boundary.lean",
+      "git_blob_sha": "2e8646ef08b818f35d5a05d62b84d2d2a139701f",
+      "bytes": 502,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Frontier/K3Gaps.lean",
+      "git_blob_sha": "dbc4cca1e2e7b64de3cc309b89c9bbcd4015c797",
+      "bytes": 470,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K0.lean",
+      "git_blob_sha": "8664a46c803f2b8fd7710bca2036a5a4d7488dc0",
+      "bytes": 291,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K1.lean",
+      "git_blob_sha": "35a7897f5cb738f5fc7c6bf74270892510b55a67",
+      "bytes": 748,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K2.lean",
+      "git_blob_sha": "c1b282651aecddac81dd319ca79ce8d91a459b87",
+      "bytes": 1118,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K3.lean",
+      "git_blob_sha": "b0fe54d9fe7546bc4bc0d97d76ea1feacc7be963",
+      "bytes": 879,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K4.lean",
+      "git_blob_sha": "79f2205ff1d0a949499e64a6684f2b830346b5bb",
+      "bytes": 438,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K5.lean",
+      "git_blob_sha": "6858901184374134142971481bd50850d199a198",
+      "bytes": 455,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/K6.lean",
+      "git_blob_sha": "512391b96e7aee294a76e139bb130d5cce693cd7",
+      "bytes": 482,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Material/Closure.lean",
+      "git_blob_sha": "fa9645e0d2bab5c2601fdca00a86a37d2f7a0972",
+      "bytes": 454,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Material/EndpointResidueAdapter.lean",
+      "git_blob_sha": "031ce16d14ac34ddb9febb42f679a0a10d58cec8",
+      "bytes": 276,
+      "kind": "lean"
+    },
+    {
+      "path": "lean/MCore/Signature.lean",
+      "git_blob_sha": "ba072c10c3b92e7539280401183b38fa86bab95e",
+      "bytes": 507,
+      "kind": "lean"
+    },
+    {
+      "path": "m_core/algebra_audit.py",
+      "git_blob_sha": "ca4c530e1aa98a397d2e70e6578870ac757b50da",
+      "bytes": 1268,
+      "kind": "other"
+    }
+  ]
+}
