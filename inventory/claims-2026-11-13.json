@@ -1,0 +1,119 @@
+{
+ "registered_at": "2026-11-13",
+ "note": "Registration date of this record, not the date of discovery. Each claim lists its earliest dated artifacts. Nothing here proves the Riemann hypothesis, GRH or any Millennium problem; all stay OPEN_MATH.",
+ "contributor": "Tiago Paschoalatto Fagliari (GitHub: ShantiDraconis)",
+ "claims": [
+  {
+   "id": "ATK-R105",
+   "title": "Exact weighted Báez-Duarte rate: κ(σ) = 2(σ − Θ)",
+   "class": "novo (proposal R105, ShantiDraconis/M-Core issue #176, opened 2026-10-27, approved 2026-11-05)",
+   "status": "VERIFIED_KERNEL_SCOPED",
+   "statements_lean": [
+    "ATK.ZeroClasses.BDPisoExato.taxa_le_Teta {σ κ : ℝ} (hσ : Teta < σ) (hσ1 : σ < 1) (h : TaxaDN σ κ) : κ ≤ 2 * (σ - Teta)",
+    "ATK.ZeroClasses.BDPisoExato.kappa_exato {σ : ℝ} (hσ : Teta < σ) (hσ1 : σ < 1) : IsGreatest {κ : ℝ | TaxaDN σ κ} (2 * (σ - Teta))",
+    "ATK.ZeroClasses.BDPisoExato.pisoPonderado : PisoPonderado",
+    "ATK.ZeroClasses.BDPisoExato.rh_iff_taxa_um {σ₀ : ℝ} (h0 : 1 / 2 < σ₀) (h1 : σ₀ < 1) : RiemannHypothesis ↔ TaxaDN σ₀ (2 * σ₀ - 1)",
+    "ATK.ZeroClasses.BDPisoExato.Teta_eq_taxa {σ : ℝ} (hσ : Teta < σ) (hσ1 : σ < 1) : Teta = σ - sSup {κ : ℝ | TaxaDN σ κ} / 2"
+   ],
+   "meaning": "For the weighted Báez-Duarte distance D_N(σ) and Θ = sup Re ρ, the best polynomial rate exponent is exactly 2(σ − Θ) on (Θ, 1); the open question Q2(iii) (PisoPonderado, declared OPEN_MATH in round 76) is a theorem; RH holds iff D_N(σ₀) has rate 2σ₀ − 1 at one fixed σ₀ ∈ (½, 1).",
+   "theorems": 61,
+   "axioms": "propext, Classical.choice, Quot.sound",
+   "source": {
+    "repository": "ShantiDraconis/M-Core (private)",
+    "file": "atk-kernel/ATK/ZeroClasses/BDPisoExato.lean",
+    "first_commit": "b6d3c2a1826ff234a41a7fa31dd522a0116485f1",
+    "first_commit_date": "2026-11-05T21:33:51Z",
+    "ci_commit": "ca9f98cc2823ee9a8ff78509b27545512a442357",
+    "ci_run": 42698490788,
+    "ci_date": "2026-11-09T21:01:23Z",
+    "ci_result": "CERTIFIED 8882/8882, sources_sha256 8269f20ad8fb3a0983ea00175e4529615a0db612ce8450cc4e20ae42c9123464",
+    "merged": "94ff77b471628f25e50ad5144ba1f072fb86a31b (PR #186, 2026-11-09T23:49:40Z)",
+    "toolchain": "Lean v4.34.1 + Mathlib (atk-kernel/lake-manifest.json)"
+   },
+   "snapshot": {
+    "path": "snapshots/M-Core/b3c08e45abdbd990c2bb0188ea8c8c341780ea71/atk-kernel/ATK/ZeroClasses/BDPisoExato.lean",
+    "sha256": "08f31987eb19548c98837a0f255f74645441381609fcb306961494b83f340a22"
+   },
+   "first_public": {
+    "repository": "ShantiDraconis/atk-math-core-public",
+    "commit": "8fee57b",
+    "date": "2026-11-13",
+    "path": "imports/M-Core/atk-kernel/ATK/ZeroClasses/BDPisoExato.lean",
+    "license": "PolyForm-Noncommercial-1.0.0"
+   },
+   "doi": "PUBLICATION_PENDING"
+  },
+  {
+   "id": "ATK-R110-1",
+   "title": "Báez-Duarte rate on a monoid of L-functions: ceiling and join (part 1)",
+   "class": "novo (proposal R110, ShantiDraconis/M-Core issue #188, opened 2026-11-09, approved 2026-11-11; part 2 open)",
+   "status": "VERIFIED_KERNEL_SCOPED",
+   "statements_lean": [
+    "ATK.ZeroClasses.BDMonoide.teto {σ A κ : ℝ} (h : RetaBoa 𝓛 σ A) (ht : 𝓛.TaxaDNF σ κ) : ∀ s : ℂ, σ - κ / 2 < s.re → 0 < s.re → s ≠ 1 → 𝓛.L s ≠ 0",
+    "ATK.ZeroClasses.BDMonoide.juncao {𝓛₁ 𝓛₂ : ClasseL} {σ A κ : ℝ} (h : RetaBoa (𝓛₁.mul 𝓛₂) σ A) (ht : (𝓛₁.mul 𝓛₂).TaxaDNF σ κ) : ∀ s : ℂ, σ - κ / 2 < s.re → 0 < s.re → s ≠ 1 → 𝓛₁.L s ≠ 0 ∧ 𝓛₂.L s ≠ 0",
+    "ATK.ZeroClasses.BDMonoide.juncao_lista (𝓛s : List ClasseL) (𝓛₀ : ClasseL) {σ A κ : ℝ} (h : RetaBoa (𝓛s.foldr ClasseL.mul 𝓛₀) σ A) (ht : (𝓛s.foldr ClasseL.mul 𝓛₀).TaxaDNF σ κ) : ∀ 𝓛 ∈ 𝓛s, ∀ s : ℂ, σ - κ / 2 < s.re → 0 < s.re → s ≠ 1 → 𝓛.L s ≠ 0"
+   ],
+   "meaning": "For an abstract class of L-functions closed under products (with 1/L = Σ μ(n)n^{-s}), a rate κ of the Báez-Duarte distance on a good line Re s = σ forces L ≠ 0 on Re s > σ − κ/2; one rate for the product certifies the zero-free region of every factor (ζ·L(s,χ) under a named good-line hypothesis for L(s,χ)). Decides neither RH nor GRH.",
+   "theorems": 36,
+   "axioms": "propext, Classical.choice, Quot.sound",
+   "source": {
+    "repository": "ShantiDraconis/M-Core (private)",
+    "file": "atk-kernel/ATK/ZeroClasses/BDMonoide.lean",
+    "first_commit": "db91159247343cb383ab0b5a6115a3bd0b224e18",
+    "first_commit_date": "2026-11-11T13:06:16Z",
+    "ci_commit": "db91159247343cb383ab0b5a6115a3bd0b224e18",
+    "ci_run": 43026127040,
+    "ci_date": "2026-11-11T13:06:21Z",
+    "ci_result": "CERTIFIED 8918/8918, sources_sha256 0a62e5b47f03b3ad430bb539d9b48b537e99d54b9df4a2880c17b2ebfebed00b",
+    "merged": "b3c08e45abdbd990c2bb0188ea8c8c341780ea71 (PR #189, 2026-11-11T16:32:15Z)",
+    "toolchain": "Lean v4.34.1 + Mathlib (atk-kernel/lake-manifest.json)"
+   },
+   "snapshot": {
+    "path": "snapshots/M-Core/b3c08e45abdbd990c2bb0188ea8c8c341780ea71/atk-kernel/ATK/ZeroClasses/BDMonoide.lean",
+    "sha256": "acd48dbf075cf5b0f124513f0db85b069c8a5cf23634b675ea358244de7f7e3b"
+   },
+   "first_public": {
+    "repository": "ShantiDraconis/atk-math-core-public",
+    "commit": "8fee57b",
+    "date": "2026-11-13",
+    "path": "imports/M-Core/atk-kernel/ATK/ZeroClasses/BDMonoide.lean",
+    "license": "PolyForm-Noncommercial-1.0.0"
+   },
+   "doi": "PUBLICATION_PENDING"
+  },
+  {
+   "id": "CRP-CONT-2026",
+   "title": "Riemann hypothesis numerically verified up to height 3 000 209 302 471.5",
+   "class": "numerical verification (rigorous interval arithmetic), above the published record of Platt–Trudgian (2021)",
+   "status": "NUMERICAL_INTERVAL_VERIFIED + VERIFIED_KERNEL_SCOPED (composition under named hypotheses)",
+   "claim": "All nontrivial zeros of ζ with 0 < Im s ≤ 3 000 209 302 471.5 lie on Re s = ½. Below T_PT = 3 000 175 332 800 this is Platt–Trudgian (2021); the range (T_PT, 3 000 209 302 471.5] is new here: 33 969 671.5 units of height, 145 389 043 zeros, deficit 0 in every gluing, N(3 000 209 302 471.5) = 12 363 298 826 181.",
+   "method": "FLINT 3 / Arb, 256-bit interval arithmetic; Turing's method for N(T) (acb_dirichlet_zeta_nzeros); bands of 120 000 units glued with N(b) of one band equal to N(a) of the next, computed by independent jobs; GitHub Actions runs listed in VALORES_FIXADOS.md (first run above the record: 41559243734, 2026-11-03; last: 43344579894, 2026-11-13).",
+   "statement_lean": "ClayRiemannProof.Continuacao.rhAteZ_continuacao43 (hPT : PlattTrudgian2021) (hJ : JanelaArb2026) (hC : JanelaContinuacao2026) … (45 named hypotheses) : RHateZ 3000209302471",
+   "source": {
+    "repository": "ShantiDraconis/clay-riemann-proof (public, CC0)",
+    "result_commit": "1b6b25297ae759c4a4a64eaf3aaabc2e81d29516",
+    "lean_ci_run": 43401888535,
+    "fixed_values_commit": "8114911bad92303e1a1276b3e3e3f692a86a119d",
+    "fixed_values_date": "2026-11-13T09:52:17Z",
+    "data_branch": "resultados-continuacao",
+    "toolchain": "Lean 4.36.0-rc2, Mathlib 8fe7ce4"
+   },
+   "snapshot": {
+    "ClayRiemannProof/Continuacao.lean": {
+     "path": "snapshots/clay-riemann-proof/8114911bad92303e1a1276b3e3e3f692a86a119d/ClayRiemannProof/Continuacao.lean",
+     "sha256": "060a2687cf753ea273596302b1ca2f40a867fec1ed60f87f142dfde01c7ef591"
+    },
+    "VALORES_FIXADOS.md": {
+     "path": "snapshots/clay-riemann-proof/8114911bad92303e1a1276b3e3e3f692a86a119d/VALORES_FIXADOS.md",
+     "sha256": "db56c0c428292e58ddd4539c9db801904d6b8c6ac505e8a72a566cc365668e3b"
+    },
+    "computations/continuacao/inicio.json": {
+     "path": "snapshots/clay-riemann-proof/8114911bad92303e1a1276b3e3e3f692a86a119d/computations/continuacao/inicio.json",
+     "sha256": "e37d2fc50a2d7738002ad02099b8716ac19fc29b40731b06b80966b02ab6ca3e"
+    }
+   },
+   "scope": "Numerical verification outside the kernel; in Lean the windows enter as named hypotheses. Not a proof of RH (OPEN_MATH). Independent reproduction of the Arb runs is pending.",
+   "doi": "PUBLICATION_PENDING"
+  }
+ ]
+}
