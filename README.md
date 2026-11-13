@@ -36,6 +36,23 @@ Per-lane DOI verification remains pending. These are historical records, not cur
 | P versus NP | ShantiDraconis/m-core-p-vs-np | e927d32684ae9294bb97f2fa5e66f24e57e085de | 8ca2065ebc829a4c8cefe91062f03677f5396031 | 35632081050, 35632081097, 35629473883, 35629474058, 35629473878 | OPEN_MATH_TWO_EXACT_PRODUCERS |
 | BSD | ShantiDraconis/m-core-bsd | 6258a9f9a13cd90193dc7d12927ce3c044fe0da6 | 5a1bb915bd600da469dcf14db61be08092fade48 | 35641972827, 35641972739, 35642114588 | OPEN_MATH |
 
+## Claims registered on 2026-11-13
+
+Machine-readable record: [`inventory/claims-2026-11-13.json`](inventory/claims-2026-11-13.json). Source snapshots with
+sha256 are under `snapshots/M-Core/b3c08e45…/` and `snapshots/clay-riemann-proof/8114911…/`. Contributor: Tiago
+Paschoalatto Fagliari (GitHub: ShantiDraconis). The registration date is not the discovery date; each claim lists its
+earliest dated artifacts.
+
+| Id | Claim | Evidence | Status |
+|---|---|---|---|
+| ATK-R105 | Exact weighted Báez-Duarte rate: `κ(σ) = 2(σ − Θ)` on `(Θ, 1)`; `PisoPonderado` (Q2(iii)) is a theorem; RH ⟺ rate `2σ₀ − 1` at one fixed `σ₀ ∈ (½, 1)` | proposal R105 (M-Core #176, 2026-10-27; approved 2026-11-05); first commit `b6d3c2a1` (2026-11-05); CI run 42698490788 on `ca9f98c` (CERTIFIED 8882/8882); 61 theorems, standard axioms | VERIFIED_KERNEL_SCOPED |
+| ATK-R110-1 | Báez-Duarte rate on a monoid of `L`-functions: ceiling `TaxaDNF σ κ ⟹ L ≠ 0` on `Re s > σ − κ/2`, and the join (one rate of the product certifies every factor) | proposal R110 (M-Core #188, 2026-11-09; approved 2026-11-11); commit `db91159` (2026-11-11); CI run 43026127040 (CERTIFIED 8918/8918); 36 theorems, standard axioms | VERIFIED_KERNEL_SCOPED |
+| CRP-CONT-2026 | RH verified numerically up to height `3 000 209 302 471.5`: above Platt–Trudgian 2021 (`T_PT = 3 000 175 332 800`) by 33 969 671.5 units and 145 389 043 zeros, all on `Re s = ½` | Arb/FLINT 3 interval arithmetic, Turing counting, runs 41559243734 (2026-11-03) … 43344579894 (2026-11-13); fixed values `8114911` in clay-riemann-proof; Lean composition `rhAteZ_continuacao43` under 45 named hypotheses (CI 43401888535) | NUMERICAL_INTERVAL_VERIFIED |
+
+All three are first public in ShantiDraconis/atk-math-core-public (`8fee57b`, PolyForm Noncommercial 1.0.0) and
+ShantiDraconis/clay-riemann-proof (CC0). DOI: PUBLICATION_PENDING. None of them proves RH, GRH or any Millennium
+problem; all stay OPEN_MATH.
+
 ## Provenance protocol
 1. Preserve original repository and immutable full commit SHA.
 2. Fetch the exact source tree and verify theorem statements, assumptions, axiom dependencies, imports and Lean/mathlib versions.

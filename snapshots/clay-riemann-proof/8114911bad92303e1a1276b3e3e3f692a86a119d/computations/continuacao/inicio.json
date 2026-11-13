@@ -1,0 +1,240 @@
+{
+ "C0": "3000209302471.5",
+ "N(C0)": 12363298826181,
+ "fonte": "colagem das faixas 0–11 a partir de 3000207862471.5 (runs 43344579894, 43344583905): N(b) da faixa 11 = 12363298826181, as 12 colagens conferindo, déficit 0",
+ "anteriores": [
+  {
+   "de": "3000175342471.5",
+   "ate": "3000175822471.5",
+   "zeros_na_reta": 2054383,
+   "deficit": 0,
+   "execucao": 41559243734,
+   "resultado": "faixas e zeros na raiz da branch resultados-continuacao; agregados em computations/continuacao/resultados/de_3000175342471.5"
+  },
+  {
+   "de": "3000175822471.5",
+   "ate": "3000181222471.5",
+   "zeros_na_reta": 23111813,
+   "deficit": 0,
+   "execucao": [
+    41632268598,
+    41652868086,
+    41675244133,
+    41690164119,
+    41709096981
+   ],
+   "resultado": "faixas 0–44 em de_3000175822471.5/ (faixa0–3 na raiz, faixas_4-15, faixas_16-23, faixas_24-35, faixas_36-44) da branch resultados-continuacao; colagem conjunta em de_3000175822471.5/juntas_0-44"
+  },
+  {
+   "de": "3000181222471.5",
+   "ate": "3000183382471.5",
+   "zeros_na_reta": 9244726,
+   "deficit": 0,
+   "execucao": [
+    41749059161,
+    41777848348,
+    41809658688,
+    41809668823
+   ],
+   "resultado": "faixas 0–17 em de_3000181222471.5/ (faixas_0-5, faixas_6-11 sem a 8, faixas_8-8, faixas_12-17) da branch resultados-continuacao; colagem conjunta em de_3000181222471.5/juntas_0-17"
+  },
+  {
+   "de": "3000183382471.5",
+   "ate": "3000184822471.5",
+   "zeros_na_reta": 6163151,
+   "deficit": 0,
+   "execucao": [
+    41842620648,
+    41842633223
+   ],
+   "resultado": "faixas 0–11 em de_3000183382471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000183382471.5/juntas_0-11"
+  },
+  {
+   "de": "3000184822471.5",
+   "ate": "3000186262471.5",
+   "zeros_na_reta": 6163150,
+   "deficit": 0,
+   "execucao": [
+    41889064559,
+    41889069781
+   ],
+   "resultado": "faixas 0–11 em de_3000184822471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000184822471.5/juntas_0-11"
+  },
+  {
+   "de": "3000186262471.5",
+   "ate": "3000187702471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    41928307909,
+    41928311888
+   ],
+   "resultado": "faixas 0–11 em de_3000186262471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000186262471.5/juntas_0-11"
+  },
+  {
+   "de": "3000187702471.5",
+   "ate": "3000189142471.5",
+   "zeros_na_reta": 6163149,
+   "deficit": 0,
+   "execucao": [
+    41993718376,
+    41993732554
+   ],
+   "resultado": "faixas 0–11 em de_3000187702471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000187702471.5/juntas_0-11"
+  },
+  {
+   "de": "3000189142471.5",
+   "ate": "3000190582471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    42032164321,
+    42032176191
+   ],
+   "resultado": "faixas 0–11 em de_3000189142471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000189142471.5/juntas_0-11"
+  },
+  {
+   "de": "3000190582471.5",
+   "ate": "3000192022471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    42080945931,
+    42080958292
+   ],
+   "resultado": "faixas 0–11 em de_3000190582471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000190582471.5/juntas_0-11"
+  },
+  {
+   "de": "3000192022471.5",
+   "ate": "3000193462471.5",
+   "zeros_na_reta": 6163151,
+   "deficit": 0,
+   "execucao": [
+    42122478758,
+    42122490265
+   ],
+   "resultado": "faixas 0–11 em de_3000192022471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000192022471.5/juntas_0-11"
+  },
+  {
+   "de": "3000193462471.5",
+   "ate": "3000194902471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    42698687986,
+    42698701000
+   ],
+   "resultado": "faixas 0–11 em de_3000193462471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000193462471.5/juntas_0-11"
+  },
+  {
+   "de": "3000194902471.5",
+   "ate": "3000196342471.5",
+   "zeros_na_reta": 6163151,
+   "deficit": 0,
+   "execucao": [
+    42735880703,
+    42735893892
+   ],
+   "resultado": "faixas 0–11 em de_3000194902471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000194902471.5/juntas_0-11"
+  },
+  {
+   "de": "3000196342471.5",
+   "ate": "3000197782471.5",
+   "zeros_na_reta": 6163151,
+   "deficit": 0,
+   "execucao": [
+    43020912910,
+    43020926543
+   ],
+   "resultado": "faixas 0–11 em de_3000196342471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000196342471.5/juntas_0-11"
+  },
+  {
+   "de": "3000197782471.5",
+   "ate": "3000199222471.5",
+   "zeros_na_reta": 6163153,
+   "deficit": 0,
+   "execucao": [
+    43098888149,
+    43098890915
+   ],
+   "resultado": "faixas 0–11 em de_3000197782471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000197782471.5/juntas_0-11"
+  },
+  {
+   "de": "3000199222471.5",
+   "ate": "3000200662471.5",
+   "zeros_na_reta": 6163151,
+   "deficit": 0,
+   "execucao": [
+    43131497894,
+    43131501697
+   ],
+   "resultado": "faixas 0–11 em de_3000199222471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000199222471.5/juntas_0-11"
+  },
+  {
+   "de": "3000200662471.5",
+   "ate": "3000202102471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    43158851648,
+    43158854801
+   ],
+   "resultado": "faixas 0–11 em de_3000200662471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000200662471.5/juntas_0-11"
+  },
+  {
+   "de": "3000202102471.5",
+   "ate": "3000203542471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    43188213296,
+    43188219425
+   ],
+   "resultado": "faixas 0–11 em de_3000202102471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000202102471.5/juntas_0-11"
+  },
+  {
+   "de": "3000203542471.5",
+   "ate": "3000204982471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    43224609813,
+    43224615096
+   ],
+   "resultado": "faixas 0–11 em de_3000203542471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000203542471.5/juntas_0-11"
+  },
+  {
+   "de": "3000204982471.5",
+   "ate": "3000206422471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    43267267316,
+    43267275902
+   ],
+   "resultado": "faixas 0–11 em de_3000204982471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000204982471.5/juntas_0-11"
+  },
+  {
+   "de": "3000206422471.5",
+   "ate": "3000207862471.5",
+   "zeros_na_reta": 6163152,
+   "deficit": 0,
+   "execucao": [
+    43308900076,
+    43308905723
+   ],
+   "resultado": "faixas 0–11 em de_3000206422471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000206422471.5/juntas_0-11"
+  },
+  {
+   "de": "3000207862471.5",
+   "ate": "3000209302471.5",
+   "zeros_na_reta": 6163153,
+   "deficit": 0,
+   "execucao": [
+    43344579894,
+    43344583905
+   ],
+   "resultado": "faixas 0–11 em de_3000207862471.5/ (faixas_0-5, faixas_6-11) da branch resultados-continuacao; colagem conjunta em de_3000207862471.5/juntas_0-11"
+  }
+ ]
+}

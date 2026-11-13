@@ -9,6 +9,7 @@ A scientific priority assertion requires an exact mathematical statement, named 
 - STRUCTURAL_RESULT: a proved conditional or intermediate result, not terminal closure.
 - OPEN_MATH: terminal result not established.
 - PUBLICATION_PENDING: public URL/DOI not independently checked.
+- NUMERICAL_INTERVAL_VERIFIED: a numerical statement checked with rigorous interval arithmetic outside the kernel (runs and data pinned); in Lean it enters only as named hypotheses.
 
 ## Release gate
 1. Inspect the exact source tree and license; do not bulk expose private repos, secrets, personal data or third-party content.
